@@ -10,6 +10,10 @@ package code;
  */
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("hello world");
+        System.out.println(sayHello("张三"));
+    }
+
+    public  static  String sayHello(String s){
+       return "hello "+s;
     }
 }
